@@ -7,7 +7,7 @@ export default function SingleTask(){
     const {theme} = useTheme()
     const stylePriority = theme === 'light' ? 'bg-green-500/15 text-green-900' : 'bg-green-700/40 text-green-500' 
     return (
-        <Card className="shadow-none">
+        <Card className="shadow-none mt-3">
             <CardHeader className="p-4">
                 <div className="flex justify-between items-center">
                     <div className={`p-1 py-[4px] rounded-3xl px-2 pr-4 font-medium flex items-center gap-1 text-sm ${stylePriority}`}>
